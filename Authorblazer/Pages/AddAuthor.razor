@@ -1,0 +1,39 @@
+﻿@page "/AddAuthor"
+
+@using Microsoft.AspNetCore.Components
+@using Authorblazer.Data
+@using Authorblazer.Model
+@inject IAuthorService AuthorService
+@inject NavigationManager NavigationManager
+
+<h3>AddAuthor</h3>
+
+<EditForm Model="@newAuthorItem" OnValidSubmit="@SaveAuthor">
+    <DataAnnotationsValidator/>
+    <ValidationSummary/>
+    
+    <div class="form-group">
+        First Name:<br/>
+        <InputText @bind-Value="newAuthorItem.FirstName" />
+    </div>
+    <div class="form-group">
+        Last Name:<br/>
+        <InputText @bind-Value="newAuthorItem.LastName" />
+    </div>
+   
+            
+    <p class="actions">
+        <button class="btn btn-outline-dark" type="">Add Author</button>
+    </p>
+</EditForm>
+
+
+@code {
+    private Author newAuthorItem = new Author();
+
+    private void SaveAuthor()
+    {
+        AuthorService.AddAuthorAsync(newAuthorItem);
+        NavigationManager.NavigateTo("/AuthorView");
+    }
+}

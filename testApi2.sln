@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testApi2", "testApi2\testApi2.csproj", "{3BEDF558-08E3-493D-B5FD-F8DC65909101}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authorblazer", "Authorblazer\Authorblazer.csproj", "{B84BBECD-BB48-499C-A2C8-E4F3E1342257}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "slet", "slet\slet.csproj", "{755BB3AB-072D-4D4C-A90B-7A5BA99026CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3BEDF558-08E3-493D-B5FD-F8DC65909101}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BEDF558-08E3-493D-B5FD-F8DC65909101}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BEDF558-08E3-493D-B5FD-F8DC65909101}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BEDF558-08E3-493D-B5FD-F8DC65909101}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B84BBECD-BB48-499C-A2C8-E4F3E1342257}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B84BBECD-BB48-499C-A2C8-E4F3E1342257}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B84BBECD-BB48-499C-A2C8-E4F3E1342257}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B84BBECD-BB48-499C-A2C8-E4F3E1342257}.Release|Any CPU.Build.0 = Release|Any CPU
+		{755BB3AB-072D-4D4C-A90B-7A5BA99026CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{755BB3AB-072D-4D4C-A90B-7A5BA99026CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{755BB3AB-072D-4D4C-A90B-7A5BA99026CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{755BB3AB-072D-4D4C-A90B-7A5BA99026CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

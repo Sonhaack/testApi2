@@ -1,0 +1,64 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Authorblazer
+build_property.RootNamespace = Authorblazer
+build_property.ProjectDir = C:\Users\Sonny\RiderProjects\testApi2\Authorblazer\
+build_property.RazorLangVersion = 5.0
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Sonny\RiderProjects\testApi2\Authorblazer
+build_property._RazorSourceGeneratorDebug = 
+build_property._RazorSourceGeneratorLog = 
+
+[c:/Users/Sonny/RiderProjects/testApi2/Authorblazer/App.razor]
+build_metadata.AdditionalFiles.TargetPath = App.razor
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = C:\Users\Sonny\RiderProjects\testApi2\Authorblazer\obj\Debug\net6.0\Razor\App.razor.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Sonny/RiderProjects/testApi2/Authorblazer/Pages/AddAuthor.razor]
+build_metadata.AdditionalFiles.TargetPath = Pages\AddAuthor.razor
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = C:\Users\Sonny\RiderProjects\testApi2\Authorblazer\obj\Debug\net6.0\Razor\Pages\AddAuthor.razor.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Sonny/RiderProjects/testApi2/Authorblazer/Pages/AddBook.razor]
+build_metadata.AdditionalFiles.TargetPath = Pages\AddBook.razor
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = C:\Users\Sonny\RiderProjects\testApi2\Authorblazer\obj\Debug\net6.0\Razor\Pages\AddBook.razor.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Sonny/RiderProjects/testApi2/Authorblazer/Pages/BookView.razor]
+build_metadata.AdditionalFiles.TargetPath = Pages\BookView.razor
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = C:\Users\Sonny\RiderProjects\testApi2\Authorblazer\obj\Debug\net6.0\Razor\Pages\BookView.razor.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Sonny/RiderProjects/testApi2/Authorblazer/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = Shared\SurveyPrompt.razor
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = C:\Users\Sonny\RiderProjects\testApi2\Authorblazer\obj\Debug\net6.0\Razor\Shared\SurveyPrompt.razor.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Sonny/RiderProjects/testApi2/Authorblazer/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = _Imports.razor
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = C:\Users\Sonny\RiderProjects\testApi2\Authorblazer\obj\Debug\net6.0\Razor\_Imports.razor.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Sonny/RiderProjects/testApi2/Authorblazer/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = Shared\MainLayout.razor
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = C:\Users\Sonny\RiderProjects\testApi2\Authorblazer\obj\Debug\net6.0\Razor\Shared\MainLayout.razor.g.cs
+build_metadata.AdditionalFiles.CssScope = b-zhgs53dxhi
+
+[c:/Users/Sonny/RiderProjects/testApi2/Authorblazer/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = Shared\NavMenu.razor
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = C:\Users\Sonny\RiderProjects\testApi2\Authorblazer\obj\Debug\net6.0\Razor\Shared\NavMenu.razor.g.cs
+build_metadata.AdditionalFiles.CssScope = b-ld5dpick1h
+
+[c:/Users/Sonny/RiderProjects/testApi2/Authorblazer/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Pages\Error.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = C:\Users\Sonny\RiderProjects\testApi2\Authorblazer\obj\Debug\net6.0\Razor\Pages\Error.cshtml.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Sonny/RiderProjects/testApi2/Authorblazer/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Pages\_Host.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = C:\Users\Sonny\RiderProjects\testApi2\Authorblazer\obj\Debug\net6.0\Razor\Pages\_Host.cshtml.g.cs
+build_metadata.AdditionalFiles.CssScope =

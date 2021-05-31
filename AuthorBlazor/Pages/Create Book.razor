@@ -1,0 +1,50 @@
+﻿@page "/Create_Book"
+@using AuthorBlazor.Data
+@using AuthorBlazor.Model
+@using Microsoft.AspNetCore.Components
+
+@inject IBookService BookService
+@inject IAuthorService AuthorService
+@inject NavigationManager NavigationManager
+<h3>Create_Book</h3>
+
+<EditForm Model="@newBookItem" OnValidSubmit="@SaveBook">
+    <DataAnnotationsValidator/>
+    <ValidationSummary/>
+
+    <div class="form-group">
+        Title:<br/>
+        <InputText @bind-Value="newBookItem.Title" />
+    </div>
+    <div class="form-group">
+        Genre:<br/>
+        <InputText @bind-Value="newBookItem.Genre" />
+    </div>
+    <div class="form-group">
+        Publication Year:<br/>
+        <InputNumber @bind-Value="newBookItem.PublicationYear" />
+    </div>
+       <div class="form-group">
+            Pages:<br/>
+            <InputNumber @bind-Value="newBookItem.NumOfPages" />
+        </div>
+    <div class="form-group">
+        ISBN:<br/>
+        <InputNumber @bind-Value="newBookItem.ISBN" />
+    </div>
+
+    <p class="actions">
+        <button class="btn btn-outline-dark" type="Submit">Add Book</button>
+    </p>
+</EditForm>
+
+
+@code {
+    private Book newBookItem = new Book();
+
+    private void SaveBook()
+    {
+        BookService.AddBookAsync(newBookItem);
+        NavigationManager.NavigateTo("/BookView");
+    }
+}

@@ -1,0 +1,62 @@
+﻿@page "/"
+@using Authorblazer.Data
+@using Authorblazer.Model
+@inject IBookService BookService
+
+<h3>BookView</h3>
+
+@if (booksToShow == null)
+{
+    <p>
+        <em>Loading...</em>
+    </p>
+}
+else if (!booksToShow.Any())
+{
+    <p>
+        <em>No book items exist. Please add some.</em>
+    </p>
+}
+else
+{
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Title</th>
+            <th>Genre</th>
+            <th>Number of pages</th>
+            <th>Publication Year</th>
+            <th>ISBN</th>
+            <th>Author First Name</th>
+            <th>Author Last Name</th>
+
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var books in booksToShow)
+        {
+            <tr>
+                <td>@books.Title</td>
+                <td>@books.Genre</td>
+                <td>@books.NumOfPages</td>
+                <td>@books.PublicationYear</td>
+                <td>@books.ISBN</td>
+            </tr>
+        }
+        </tbody>
+        
+    </table>
+}
+
+@code {
+    private IList<Book> booksToShow;
+    //private IList<Author> allAuthors;
+    private IList<Author> _authors;
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        booksToShow = await BookService.GetBookAsync();
+    }
+
+}
